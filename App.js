@@ -27,8 +27,8 @@ function start(client) {
             'http',
             '10.50.0.144',       // dns/ip rocketchat
             3000,                // port rocketchat
-            'api',               // login rocketchat api 
-            'api@123',           
+            'api2',               // login rocketchat api 
+            'api2',           
             (err, result) => {
                 //Lista os usuários existentes no servidor
                 rocketChatClientinit.users.list((err, body) => {
